@@ -1,0 +1,17 @@
+.all {
+    background-color: rgb(81, 211, 228);
+    text-align: center;
+    padding: 50px;
+    
+    
+}
+.click {
+    border: 1px solid;
+    background-color:rgb(171, 245, 235);
+    display: inline-block; 
+    border-style: solid;
+    border-color: rgb(36, 165, 159); 
+    height: 80px; 
+    width: 80px;
+    overflow: hidden;
+}
