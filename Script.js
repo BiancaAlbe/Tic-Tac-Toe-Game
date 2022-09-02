@@ -22,11 +22,11 @@ function table_clicks(i, j) {                            //add x or o in the box
     document.getElementById("table" + i + " " + j).innerHTML = "X";
     square[i][j] = "X";
   }
-  add_o_to_the_first_emoty_box(square);
-  console.log(square);
+  add_o_to_the_first_emoty_box(square);       // calls the function 
+  // console.log(square);
 
   let result = array_verify(square);
-  console.log(result);
+  // console.log(result);
   if (result) {
     document.getElementById("mesage").innerText = result; //shows the winner on the screen
   }
@@ -112,7 +112,7 @@ function array_verify(square) {                           //check if there is a 
   return false;
 }
 
-function add_o_to_the_first_emoty_box(square) {              // add o in the first empty box
+function add_o_to_the_first_emoty_box(square) {              // add o in the first empty box that hr finds
 
   for (let i = 0; i < 3; ++i) {
     for (let j = 0; j < 3; ++j) {
